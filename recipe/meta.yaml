@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=NCmisc
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: A set of handy functions. Includes a versatile one line progress bar, one  line function
     timer with detailed output, time delay function, text histogram, object  preview,
     CRAN package search, simpler package installer, Linux command install check,  a
