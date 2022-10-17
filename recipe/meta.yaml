@@ -1,4 +1,4 @@
-{% set version = '1.1.6' %}
+{% set version = "1.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/NCmisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/NCmisc/NCmisc_{{ version }}.tar.gz
-  sha256: 2aa85997d5ec2222e610604022684c004a4925241761d9a0104919f1cf3a8c79
+  sha256: 26fcfbc79810f23a28389a5ce5519e6ddc2470c5e924ba8cf4dd19a1b0fd9f83
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -38,12 +38,10 @@ test:
 about:
   home: https://CRAN.R-project.org/package=NCmisc
   license: GPL-2.0-or-later
-  summary: A set of handy functions. Includes a versatile one line progress bar, one  line function
-    timer with detailed output, time delay function, text histogram, object  preview,
-    CRAN package search, simpler package installer, Linux command install check,  a
-    flexible Mode function, top function, simulation of correlated data, and more.
+  summary: A set of handy functions. Includes a versatile one line progress bar, one  line function timer with detailed output, time delay function, text histogram, object  preview, CRAN package search, simpler package installer, Linux command install check,  a flexible Mode function, top function, simulation of correlated
+    data, and more.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
