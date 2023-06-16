@@ -1,11 +1,11 @@
-About r-ncmisc
-==============
+About r-ncmisc-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ncmisc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=NCmisc
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ncmisc-feedstock/blob/main/LICENSE.txt)
 
 Summary: A set of handy functions. Includes a versatile one line progress bar, one  line function timer with detailed output, time delay function, text histogram, object  preview, CRAN package search, simpler package installer, Linux command install check,  a flexible Mode function, top function, simulation of correlated data, and more.
 
